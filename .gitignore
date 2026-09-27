@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+*.sqlite3
+*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/database/*.db
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+.DS_Store
+*.log
+
+# Models
+backend/models/*.h5
+!backend/models/.gitkeep
