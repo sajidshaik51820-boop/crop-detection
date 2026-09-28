@@ -2,8 +2,7 @@
  * API Service for communicating with FastAPI Backend
  */
 
-export const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
-
+export const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://crop-detection-c2mf.onrender.com';
 export function getFullImageUrl(urlPath) {
   if (!urlPath) return null;
   if (urlPath.startsWith('http://') || urlPath.startsWith('https://') || urlPath.startsWith('blob:') || urlPath.startsWith('data:')) {
